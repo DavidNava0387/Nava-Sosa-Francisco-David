@@ -3,3 +3,9 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(201, 10, 10);
 }
+h1{
+    background-color: rgb(50, 7, 90);
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
