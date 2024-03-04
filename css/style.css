@@ -1,11 +1,9 @@
 *{
-    background-color: rgb(113, 9, 82);
+    background-color: rgb(0, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(201, 10, 10);
 }
 h1{
-    background-color: rgb(50, 7, 90);
-    color: blueviolet;
+    color: rgb(203, 7, 7);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
