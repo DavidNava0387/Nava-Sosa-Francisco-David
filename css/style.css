@@ -1,7 +1,9 @@
 *{
-    background-image: url(https://i.pinimg.com/originals/5f/f5/e2/5ff5e2db1081207b2d94a2a2f89aa200.jpg);
     color: rgb(223, 53, 23);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: url(https://www.zonamovilidad.es/fotos/2/29279_portada_4.jpg);
 }
 h1{
     color: rgb(203, 7, 7);
