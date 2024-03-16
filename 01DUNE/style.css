@@ -175,3 +175,18 @@ nav .barnav div:hover{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 20px;
 }
+footer{
+	background-color: #090909aa;
+}
+.barfoo{
+	display: grid;
+	grid-template-columns: repeat(4,auto);
+	margin-left: 250px;
+}
+.barfoo img{
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.182);
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+}
