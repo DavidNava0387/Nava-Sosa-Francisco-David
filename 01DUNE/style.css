@@ -3,6 +3,10 @@
     padding: 0;
 
 }
+a{
+	text-decoration: none;
+	color: white;
+}
 .barnav{
 	background-color: #090909aa;
 }
@@ -116,6 +120,58 @@ nav .barnav div:hover{
 	margin-right: 350px;
 }
 .pelis p{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+}
+.Libros{
+	background-color: #090909;
+	text-align: right;
+	color: white;
+	height: 600px;
+	align-items: center;
+}
+.Libros h1{
+	float: center;
+	margin-right: 47%;
+	margin-top: 50px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.Libros img{
+	margin-top: 50px;
+	height: 300px;
+}
+.books{
+	display: grid;
+	grid-template-columns: repeat(5,auto);
+	margin-right: 100px;
+}
+.books p{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+}
+.Videojuegos{
+	background-color: #090909;
+	text-align: right;
+	color: white;
+	height: 600px;
+	align-items: center;
+}
+.Videojuegos h1{
+	float: center;
+	margin-right: 47%;
+	margin-top: 50px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.Videojuegos img{
+	margin-top: 50px;
+	height: 300px;
+}
+.games{
+	display: grid;
+	grid-template-columns: repeat(5,auto);
+	margin-right: 100px;
+}
+.games p{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 20px;
 }
