@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
 	background-color: #090909;
 }
 a{
@@ -39,10 +41,10 @@ nav .barnav div:hover{
 	background: #0909098a;
 }
 section{
-	background-color: #090909;
+	background: #090909;
 	text-align: right;
 	color: white;
-	height: 700px;
+	height: 100%;
 	align-items: center;
 }
 section img{
