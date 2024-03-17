@@ -17,7 +17,7 @@ header h3{
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.16);
     padding: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 body{
     background-color: rgb(101, 105, 116);
@@ -55,5 +55,6 @@ body{
     width: 70%;
     background-image: url(../img/inf.jpg);
     background-size: cover;
+    background-position: center;
     opacity: 0.5;
 }
