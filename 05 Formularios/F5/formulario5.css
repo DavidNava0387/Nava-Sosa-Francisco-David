@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d78eff;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ccc;
+    border: 1px solid #a600ff;
+}
+
+.hmForm input[type="number"] {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.hmForm {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100px;
+    border: 1px solid #a600ff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #a600ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b00b3;
+}
+
+#pf {
+    margin-top: 20px;
+}

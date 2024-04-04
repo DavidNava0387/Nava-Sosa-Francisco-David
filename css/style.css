@@ -40,6 +40,7 @@ body{
     list-style-type: none;
     color: white;
 }
+
 .act ul{
     height: 70vh;
     background-color: rgb(255, 255, 255, 0.16);
@@ -48,6 +49,11 @@ body{
 .act li:hover{
     background-color: black;
 }
+
+.act p {
+    color: white;
+}
+
 .act a{
     text-decoration: none;
 }

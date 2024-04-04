@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALIFICACIONES</title>
+    <link rel="stylesheet" href="./formulario4.css">
+    <script src="./formulario4.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Calificaciones de Algoritmos</h2>
+        <form id="calForm">
+            <div>
+                <label for="p1">Calificación del Parcial I:</label>
+                <input type="number" id="p1" min="0" max="10" required oninput="validarCalificacion(this)">
+            </div>
+            <div>
+                <label for="p2">Calificación del Parcial II:</label>
+                <input type="number" id="p2" min="0" max="10" required oninput="validarCalificacion(this)">
+            </div>
+            <div>
+                <label for="p3">Calificación del Parcial III:</label>
+                <input type="number" id="p3" min="0" max="10" required oninput="validarCalificacion(this)">
+            </div>
+            <div>
+                <label for="ef">Calificación del Examen Final:</label>
+                <input type="number" id="ef" min="0" max="10" required oninput="validarCalificacion(this)">
+            </div>
+            <div>
+                <label for="tf">Calificación del Trabajo Final:</label>
+                <input type="number" id="tf" min="0" max="10" required oninput="validarCalificacion(this)">
+            </div>
+            <button type="button" id="submitButton">Obtener la Calificación Final</button>
+        </form>
+        <div id="cf"></div>
+    </div>
+</body>
+</html>

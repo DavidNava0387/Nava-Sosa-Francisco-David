@@ -1,0 +1,36 @@
+body {
+    background-color: #ff2020;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ff0400;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ff0400;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30000;
+}
