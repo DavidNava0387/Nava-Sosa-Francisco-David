@@ -1,59 +1,72 @@
 body {
-    background-color: #fdff88;
-}
-.container {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #fbff00;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.container h2 {
-    text-align: center;
-}
-
-.container form {
-    margin-bottom: 20px;
-}
-
-.container form div {
-    margin-bottom: 10px;
-}
-
-.container form label {
-    display: inline-block;
-    width: 200px;
-    font-weight: bold;
-}
-
-.container form input[type="number"] {
-    width: 100px;
-    padding: 5px;
-    border: 1px solid #ffd900;
-    border-radius: 3px;
-}
-
-.container form button {
-    display: block;
-    margin: auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 3px;
-    background-color: #ffd900;
+    font-family: Arial, sans-serif;
+    background-color: #222;
     color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center; /* Alinea el contenido del contenedor al centro */
+}
+
+h3 {
+    color: #ffd700; /* Amarillo */
+    margin-bottom: 1rem; /* Agrega espacio inferior al h3 */
+}
+
+h2 {
+    color: #ffd700; /* Amarillo */
+    margin-top: 2rem;
+}
+
+form {
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.3);
+    margin-top: 1rem;
+}
+
+label {
+    color: #fff;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px); /* Resta 20px para compensar el padding del input */
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ffd700; /* Amarillo */
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #ffcc00; /* Amarillo más oscuro */
+}
+
+button[type="button"] {
+    background-color: #ffd700; /* Amarillo */
+    color: #111;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.container form button:hover {
-    background-color: #ffbb00;
+button[type="button"]:hover {
+    background-color: #ffcc00; /* Amarillo más oscuro */
 }
 
-.container #cf {
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 20px;
+#cf {
+    margin-top: 1rem;
+    color: #ffd700; /* Amarillo */
 }
